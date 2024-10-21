@@ -18,7 +18,7 @@ Welcome to the **CPlusPlusInterviewPrep** repository! This repository is designe
 To get started with this repository:
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<YOUR_GITHUB_USERNAME>/CPlusPlusInterviewPrep.git
+   git clone https://github.com/sohamdalwadi/CPlusPlusInterviewPrep.git
    cd CPlusPlusInterviewPrep
    ```
 
