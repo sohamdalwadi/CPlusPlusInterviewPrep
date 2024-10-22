@@ -125,6 +125,129 @@ CPlusPlusInterviewPrep/
 │
 └── CONTRIBUTING.md                # Guidelines for contributing to the repository 
 ```
+# Comprehensive Guide to C++
+
+This guide provides a structured overview of C++ concepts, ranging from the basics to advanced topics, including Data Structures and Algorithms (DSA), the Standard Template Library (STL), Design Patterns, and Modern C++ features.
+
+## 1. C++ Basics
+### 1.1 Syntax and Structure
+- **Data Types**
+- **Variables**
+- **Operators**
+- **Control Structures**
+  - `if`, `switch`, loops
+### 1.2 Functions
+- **Function Overloading**
+- **Default Arguments**
+- **Inline Functions**
+### 1.3 Object-Oriented Programming (OOP)
+- **Classes and Objects**
+- **Inheritance**
+  - Single Inheritance
+  - Multiple Inheritance
+  - Multilevel Inheritance
+  - Hierarchical Inheritance
+  - Hybrid Inheritance
+- **Polymorphism**
+  - Compile-time (Function Overloading, Operator Overloading)
+  - Runtime (Virtual Functions)
+- **Encapsulation**
+
+## 2. Advanced C++ Features
+### 2.1 Templates
+- **Function Templates**
+- **Class Templates**
+### 2.2 Exception Handling
+- Try, Catch, Throw
+### 2.3 Namespaces
+### 2.4 Smart Pointers
+- Unique Pointer
+- Shared Pointer
+- Weak Pointer
+
+## 3. Data Structures and Algorithms (DSA)
+### 3.1 Basic Data Structures
+- Arrays
+- Linked Lists (Singly, Doubly, Circular)
+- Stacks
+- Queues (Regular, Priority)
+- Trees (Binary Trees, Binary Search Trees, AVL Trees)
+- Graphs (Representation: Adjacency Matrix/List)
+### 3.2 Algorithms
+- Searching Algorithms (Linear Search, Binary Search)
+- Sorting Algorithms (Bubble Sort, Selection Sort, Quick Sort, Merge Sort)
+- Recursion and Backtracking
+
+## 4. Standard Template Library (STL)
+### 4.1 Containers
+- **Sequence Containers**: Vector, List, Deque
+- **Associative Containers**: Set, Map, Multiset, Multimap
+- **Unordered Containers**: Unordered Set, Unordered Map
+### 4.2 Algorithms
+- Sorting Algorithms: `sort()`, `stable_sort()`
+- Searching Algorithms: `find()`, `binary_search()`
+### 4.3 Iterators
+- Input Iterators
+- Output Iterators
+- Forward Iterators
+- Bidirectional Iterators
+- Random Access Iterators
+
+## 5. Design Patterns in C++
+### 5.1 Creational Patterns
+- **Singleton**: Ensures a class has only one instance.
+- **Factory Method**: Creates objects without specifying the exact class.
+- **Abstract Factory**: Produces families of related objects.
+- **Builder**: Constructs complex objects step by step.
+- **Prototype**: Creates new objects by copying an existing object.
+
+### 5.2 Structural Patterns
+- **Adapter**: Allows incompatible interfaces to work together.
+- **Bridge**: Separates abstraction from implementation.
+- **Composite**: Composes objects into tree structures.
+- **Decorator**: Adds behavior to objects dynamically.
+- **Facade**: Provides a simplified interface to a complex subsystem.
+- **Flyweight**: Reduces memory usage by sharing common parts.
+- **Proxy**: Controls access to another object.
+
+### 5.3 Behavioral Patterns
+- **Chain of Responsibility**: Passes requests along a chain of handlers.
+- **Command**: Encapsulates a request as an object.
+- **Interpreter**: Evaluates sentences in a language.
+- **Iterator**: Traverses elements of a collection without exposing its structure.
+- **Mediator**: Reduces chaotic dependencies between objects.
+- **Memento**: Saves and restores the previous state of an object.
+- **Observer**: Notifies multiple objects about changes in another object.
+- **State**: Alters behavior based on internal state changes.
+- **Strategy**: Defines a family of algorithms and makes them interchangeable.
+- **Template Method**: Defines the skeleton of an algorithm in a superclass.
+
+## 6. Best Practices and Principles
+### 6.1 SOLID Principles
+* Single Responsibility Principle (SRP)
+* Open-Closed Principle (OCP)
+* Liskov Substitution Principle (LSP)
+* Interface Segregation Principle (ISP)
+* Dependency Inversion Principle (DIP)
+
+## 7. Modern C++ Features
+- Lambda Expressions
+- Concurrency Support (Threads, Mutexes)
+- Range-based for loops
+
+## 8. Tools and Libraries
+### Integrated Development Environments (IDEs)
+* Visual Studio 
+* CLion 
+* Code::Blocks 
+
+### Build Systems 
+* CMake 
+* Makefiles 
+
+---
+
+This structured overview serves as a comprehensive guide to understanding C++, covering foundational concepts to advanced topics like design patterns and modern features. Each section can be explored further for detailed study or practical implementation.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
